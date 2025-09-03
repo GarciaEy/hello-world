@@ -39,18 +39,16 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">2. navigate page!!</ThemedText>
-        <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
-        </ThemedText>
+        <ThemedText>{`in order to navigate.`}</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">3. start new!!</ThemedText>
         <ThemedText>
-          {`When you're ready, run `}
+          {`start now `}
           <ThemedText type="defaultSemiBold"></ThemedText>{" "}
           <ThemedText type="defaultSemiBold"></ThemedText>{" "}
-          <ThemedText type="defaultSemiBold"></ThemedText> to{" "}
-          <ThemedText type="defaultSemiBold"></ThemedText>.
+          <ThemedText type="defaultSemiBold"></ThemedText>{" "}
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
